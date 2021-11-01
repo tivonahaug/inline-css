@@ -4,13 +4,16 @@
   "description": "Inline css into an html file.",
   "main": "index.js",
   "dependencies": {
+    "batch": "^0.6.1",
     "cheerio": "^0.22.0",
     "css-rules": "^1.0.9",
-    "extract-css": "^2.0.0",
     "flat-util": "^1.1.6",
+    "list-stylesheets": "^1.2.9",
     "pick-util": "^1.1.3",
     "slick": "^1.12.2",
-    "specificity": "^0.4.1"
+    "specificity": "^0.4.1",
+    "style-data": "^1.4.7",
+    "superagent": "^6.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

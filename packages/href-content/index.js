@@ -1,6 +1,6 @@
 const url = require('url');
 const fs = require('fs');
-const getRemoteContent = require('remote-content');
+const getRemoteContent = require('../remote-content');
 
 module.exports = (destHref, sourceHref, callback) => {
     let resolvedUrl;

@@ -2,7 +2,7 @@ const assert = require('assert');
 const Batch = require('batch');
 const getStylesData = require('style-data');
 const getStylesheetList = require('list-stylesheets');
-const getHrefContent = require('href-content');
+const getHrefContent = require('../href-content');
 
 module.exports = (html, options, callback) => {
     const batch = new Batch();
